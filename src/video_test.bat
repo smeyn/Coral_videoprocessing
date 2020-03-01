@@ -1,0 +1,1 @@
+python process_video.py --model models/mobilenet_ssd_v2_coco_quant_postprocess_edgetpu.tflite  --labels models/coco_labels.txt -i  images\2019-10-13_14-24-59-front.mp4 -o detected.json --markup_path=video\processed
